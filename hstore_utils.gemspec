@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ["luis.cruz@teclacolorida.com", "martina.simicic@escolinhas.pt"]
   s.homepage    = "https://github.com/kiddosware/hstore_utils"
   s.summary     = %q{Some utilities to make hstore easier.}
-  s.description = %q{This gem is based on the railscast #345 HStore, that introduces the use of the HStore type for PostgreSQL. With this gem you can declare the key/values inside your Hstore attribute as attribute accessors :) Contributions are welcome! Note: It assumes you have the activerecord-postgres-hstore gem installed.}
+  s.description = %q{This gem is based on the railscast #345 HStore, that introduces the use of the HStore type for PostgreSQL. With this gem you can declare the key/values inside your Hstore attribute as attribute accessors :) Contributions are welcome! Note: It assumes you have the your PostgreSQL database configured to use the HStore type. Take a look at the activerecord-postgres-hstore gem.}
 
   s.rubyforge_project = "hstore_utils"
 
